@@ -1,0 +1,208 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding:0;
+    background-color:white;
+    
+
+}
+.medsos ul li{
+    display:inline-block;
+    color: #fff;
+    margin-right: 10px;
+    
+
+}
+.logo{
+  position:absolute;
+  left: 0;
+  top: 0;
+ 
+  
+  
+}
+.container {
+    width:80%;
+    margin:0 auto;
+}
+.container:after {
+    content: '';
+    display:block;
+    clear:both;
+}
+
+header {
+    padding: 8px 0;
+    color:dimgray;
+    width: 100%;
+    position: fixed;
+    z-index:9999;
+    background-color:white;
+    
+
+
+}
+header h1{
+    float: left;
+    padding:15px 0;
+    color: dimgray;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+   
+}
+header ul li a {
+padding:25px 20px;
+display: inline-block;
+transition: background-color 0.3s, color 0.3s;
+}
+header ul li a:hover {
+    background-color: dimgray;
+    color: #fff;
+}
+.active {
+    background-color:dimgrey;
+    color: #fff;
+}
+.banner {
+    height: 60vh;
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+.banner:after {
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+       
+        }
+.banner h2{
+    color: #fff;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+    
+}
+        section {
+    padding: 50px 0;
+}
+    section h3 {
+        text-align: center;
+        padding: 20px 0;
+        color: dimgray;
+        margin-bottom: 20px;
+    }
+    
+    .about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ENJOY EAT {
+    background-color: #f9f9f9;
+}
+  footer {
+    padding:30px 0;
+    background-color: dimgray;
+    color: #fff;
+    text-align: center;
+  }
+  .label {
+    background-color: white;
+    color: dimgray;
+
+ }
+  section h4 {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section h5 {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+section h6 {
+    color:dimgrey;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align:left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+    
+}
+.contents {
+    text-align: center;
+}
+#menu{
+    padding: 25px 0 25px 0;
+}
+#section {
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+#menu_col{
+    box-shadow:2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+#menu_col h2{
+    background-color:dimgray;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+}
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    padding: 5px;
+    border: 2px solid dimgrey;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    object-fit: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
